@@ -9,4 +9,5 @@ import { Product, products } from '../products';
 })
 export class ProductDetailsComponent {
   product: Product | undefined;
+  constructor(private route: ActivatedRoute) {}
 }
